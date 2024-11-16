@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav i {
+    color: #FC7A56;
+    font-size: 3.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li button {
+    padding: 10px;
+    background-color: #FC7A56;
+    border: none;
+    border-radius: 30px;
+
+}
+
+nav button a {
+    color: white;
+}
+
+
+.service-intro {
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    line-height: 30px;
+}
+
+.service-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.service-cards {
+    text-align: center;
+    padding: 20px;
+    line-height: 40px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #999;
+    background-color: wheat;
+}
+
+.service-cards i {
+    color: #FC7A56;
+    font-size: xx-large;
+}
+
+.contact-me-intro {
+    margin: 50px 20px 20px;
+    text-align: center;
+}
+
+.form input {
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.form textarea {
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.form button {
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    background-color: #FC7A56;
+    border-radius: 20px;
+    border: none;
+}
